@@ -26,3 +26,8 @@ function appendKitten(name) {
   let arr2 = [...kittens, name]
   return arr2
 }
+
+function prependKitten(name) {
+  let arr2 = [name, ...kittens]
+  return arr2
+}
