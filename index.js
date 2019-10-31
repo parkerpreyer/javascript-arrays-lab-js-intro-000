@@ -31,3 +31,7 @@ function prependKitten(name) {
   let arr2 = [name, ...kittens]
   return arr2
 }
+
+function removeLastKitten() {
+  let arr2 = kittens.slice(0, kittens.length - 1)
+}
